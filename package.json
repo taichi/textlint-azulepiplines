@@ -1,0 +1,17 @@
+{
+  "name": "textlint-azulepiplines",
+  "version": "0.0.1",
+  "description": "",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "textlint": "^11.2.1",
+    "textlint-rule-common-misspellings": "^1.0.1"
+  },
+  "scripts": {
+    "fix": "textlint --fix testtest.txt",
+    "lint": "textlint testtest.txt"
+  },
+  "author": "taichi",
+  "license": "MIT"
+}
