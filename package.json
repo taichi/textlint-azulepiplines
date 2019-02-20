@@ -10,7 +10,7 @@
   },
   "scripts": {
     "fix": "textlint --fix testtest.txt",
-    "lint": "textlint testtest.txt"
+    "lint": "textlint --debug testtest.txt"
   },
   "author": "taichi",
   "license": "MIT"
