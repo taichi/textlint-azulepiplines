@@ -10,7 +10,7 @@
   },
   "scripts": {
     "fix": "textlint --fix testtest.txt",
-    "lint": "textlint --debug testtest.txt"
+    "lint": "textlint --debug --format pretty-error testtest.txt"
   },
   "author": "taichi",
   "license": "MIT"
